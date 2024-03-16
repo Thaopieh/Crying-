@@ -26,9 +26,10 @@ header {
     /* height: 120%; */
 }
 
-h1{
+h1 {
     /* font-size: 0%; */
 }
+
 .navi {
     background-color: rgb(48, 93, 209);
     /* height: 120%; */
@@ -78,7 +79,7 @@ h1{
 .header-register-btn:hover {
     color: #3264ff;
     transition: 0.5s;
-    
+
 }
 
 .btn1 {
@@ -410,7 +411,7 @@ footer {
     .ul-search {
         grid-template-columns: 1fr;
     }
-    
+
 
     .hotel-searchBox {
         height: 300px;
@@ -442,7 +443,8 @@ footer {
     }
 
     .is-travel-working,
-    .star-rating, .navbar {
+    .star-rating,
+    .navbar {
         display: none;
     }
 }

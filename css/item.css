@@ -26,11 +26,12 @@ header {
     /* height: 120%; */
 }
 
-h1{
+h1 {
     /* font-size: 0%; */
 }
+
 .navi {
-    background-color:blue;
+    background-color: blue;
     /* height: 120%; */
 }
 
@@ -78,7 +79,7 @@ h1{
 .header-register-btn:hover {
     color: #3264ff;
     transition: 0.5s;
-    
+
 }
 
 .btn1 {
@@ -418,13 +419,13 @@ footer {
 
 
 
-.body_container{
+.body_container {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.title_filter{
+.title_filter {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -432,11 +433,11 @@ footer {
 
 }
 
-.body_left{
+.body_left {
     width: 30%;
 }
 
-.body_right{
+.body_right {
     border: 1px solid black;
     width: 70%;
 }
@@ -539,4 +540,20 @@ footer img {
     height: 60px;
     background-color: blue;
     border: 1px solid blue;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.body_left .col-10 {
+    background-color: #f4f4f4;
+    padding: 5%;
+    border-radius: 5%;
+    /* border-style: ridge; */
+    margin-bottom: 5%;
+}
+
+.moreContent {
+    display: none;
 }

@@ -445,7 +445,7 @@ h3{
     border: none;
 }
 .body_left {
-    width: 30%;
+    width: 25%;
 }
 
 .body_right {
@@ -566,6 +566,7 @@ footer img {
     padding: 5%;
     /* border-radius: 5%; */
     margin-bottom: 1%;
+    width: 95%;
 }
 
 .moreContent {

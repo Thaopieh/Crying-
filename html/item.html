@@ -186,8 +186,13 @@
         <div class="body_left">
           <!-- trinh lam filter  -->
 
-          <div class="price">
+          <div class="col-10">
+            <label class="form-label" for="price-range">Giá (VND)</label>
+            <input type="range" class="form-range" min="0" max="20000000" step="100000" id="price-range"
+              oninput="updateValue()">
+            <div id="value">Từ </div>
           </div>
+
           <div class="col-10">
             <label class="form-label" for="popular-title">Bộ lọc phổ biến</label>
             <div class="form-check">
@@ -442,11 +447,6 @@
               <label class="form-check-label" for="The-Arrival">The Arrival</label>
             </div>
           </div>
-
-
-
-
-
 
           <!-- -------Bảo vệ -->
         </div>

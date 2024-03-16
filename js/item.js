@@ -57,6 +57,14 @@ document.getElementById("dropbtn").addEventListener("click", function () {
   }
 });
 
+//Hàm lấy giá trị tiền từ thanh trượt (price range)
+function updateValue() {
+  var price = document.getElementById('price-range').value;
+  var formattedPrice = new Intl.NumberFormat('vi-VN').format(price); //format số
+  document.getElementById('value').innerHTML = 'Từ ' + formattedPrice + 'VND';
+}
+
+
 // Nút show more
 function showMoreFunc(elementID) {
   var dots = document.getElementById(elementID + "-dots");
@@ -74,3 +82,4 @@ function showMoreFunc(elementID) {
     moreText.style.display = "inline";
   }
 }
+

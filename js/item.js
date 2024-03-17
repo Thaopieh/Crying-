@@ -1,3 +1,17 @@
+// Show dropdown content when the dropdown button is clicked
+dropdownBtn.addEventListener("click", function() {
+  dropdownContent.classList.toggle("show");
+});
+
+// Hide dropdown content when mouse leaves dropdown area
+dropdownContainer.addEventListener("mouseleave", function() {
+  dropdownContent.classList.remove("show");
+});
+
+// Hide dropdown when mouse leaves dropdown button
+document.getElementById("dropbtn").addEventListener("mouseleave", function() {
+  dropdownContent.classList.remove("show");
+});
 
 // Xử lý sự kiện click vào các mục trong dropdown
 var dropdownItems = document.querySelectorAll('.dropdown-item');
@@ -8,15 +22,15 @@ for (var i = 0; i < dropdownItems.length; i++) {
   var itemType = dropdownItems[i].getAttribute('data-type');
 
   // Tăng số lượng khi click nút "+"
-  addButton.addEventListener("click", function (event) {
+  addButton.addEventListener("click", function(event) {
     event.stopPropagation(); // Prevent dropdown close
-
+  
     // Get the item type of the clicked dropdown item
     var itemType = this.parentNode.getAttribute('data-type');
-
+  
     var count = parseInt(this.parentNode.getAttribute('data-count')) + 1;
     this.parentNode.setAttribute('data-count', count);
-
+  
     // Update count based on item type
     if (itemType === 'room') {
       document.getElementById("room-item-count").textContent = count;
@@ -34,28 +48,21 @@ function updateDropdownButton() {
   var roomCount = parseInt(document.getElementById("room-item-count").textContent);
   var adultsCount = parseInt(document.getElementById("adults-item-count").textContent);
   var childrenCount = parseInt(document.getElementById("children-item-count").textContent);
-  dropdownBtn.innerHTML = roomCount + " Room, " + adultsCount + " Adults, " + childrenCount + " Children ";
+  dropdownBtn.innerHTML = roomCount +  " Room, "+  adultsCount +" Adults, "+ childrenCount + " Children ";
 }
-document.addEventListener('click', function (event) {
+document.addEventListener('click', function(event) {
   var dropdown = document.getElementById("myDropdown");
   var dropdownBtn = document.getElementById("dropbtn");
   var target = event.target;
   var dropdownClicked = dropdown.contains(target);
   var dropdownBtnClicked = dropdownBtn.contains(target);
   if (!dropdownClicked && !dropdownBtnClicked) {
-    dropdown.style.display = 'none';
+      dropdown.style.display = 'none';
   }
 });
 
 // Function to toggle the dropdown when clicking on the button
-document.getElementById("dropbtn").addEventListener("click", function () {
-  var dropdown = document.getElementById("myDropdown");
-  if (dropdown.style.display === "none" || dropdown.style.display === "") {
-    dropdown.style.display = "block";
-  } else {
-    dropdown.style.display = "none";
-  }
-});
+
 
 //Hàm lấy giá trị tiền từ thanh trượt (price range)
 function updateValue() {

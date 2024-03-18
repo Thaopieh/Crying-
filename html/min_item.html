@@ -487,19 +487,19 @@
             <a href="#" data-bs-toggle="offcanvas" data-bs-target="#amenties-policiesOffcanvas"
               onclick="showContent('amenties')">
               <p>Tiện nghi</p>
-              <table>
+              <table class="table-sum">
                 <tr>
-                  <td><i class="fa-solid fa-umbrella"></i>Khu vực tắm nắng</td>
-                  <td><i class="fa-solid fa-water-ladder"></i>Bể bơi ngoài trời</td>
+                  <td><i class="fa-solid fa-umbrella"></i><span>Khu vực tắm nắng</span></td>
+                  <td><i class="fa-solid fa-water-ladder"></i><span>Bể bơi ngoài trời</span></td>
                 </tr>
                 <tr>
-                  <td><i class="fa-solid fa-dumbbell"></i>Phòng gym</td>
-                  <td><i class="fa-solid fa-spa"></i>Spa</td>
+                  <td><i class="fa-solid fa-dumbbell"></i><span>Phòng gym</span></td>
+                  <td><i class="fa-solid fa-spa"></i><span>Spa</span></td>
                 </tr>
                 <tr>
-                  <td><i class="fa-solid fa-kitchen-set"></i>Khu vực ăn uống</td>
-                  <td><a href="#" data-bs-toggle="offcanvas" data-bs-target="#amenties-policiesOffcanvas"
-                      onclick="showContent('amenties')">Xem thêm</a>
+                  <td><i class="fa-solid fa-kitchen-set"></i><span>Khu vực ăn uống</span></td>
+                  <td > <a href="#" data-bs-toggle="offcanvas" data-bs-target="#amenties-policiesOffcanvas"
+                      onclick="showContent('amenties')" style="color: blue;"><i class="fa-solid fa-magnifying-glass"></i><span >Xem thêm </span></a>
                   </td>
                 </tr>
               </table>
@@ -510,19 +510,19 @@
             <a href="#" data-bs-toggle="offcanvas" data-bs-target="#amenties-policiesOffcanvas"
               onclick="showContent('policies')">
               <p>Chính sách</p>
-              <table>
+              <table class="table-sum">
                 <tr>
-                  <td><i class="fa-solid fa-clock"></i>Thời gian nhận/trả phòng</td>
-                  <td><i class="fa-solid fa-children"></i>Chính sách trẻ em</td>
+                  <td><i class="fa-solid fa-clock"></i><span>Thời gian nhận/trả phòng</span></td>
+                  <td><i class="fa-solid fa-children"></i><span>Chính sách trẻ em</span></td>
                 </tr>
                 <tr>
-                  <td><i class="fa-solid fa-bed"></i>Nôi và giường phụ</td>
-                  <td><i class="fa-solid fa-utensils"></i>Bữa ăn sáng</td>
+                  <td><i class="fa-solid fa-bed"></i><span>Nôi và giường phụ</span></td>
+                  <td><i class="fa-solid fa-utensils"></i><span>Bữa ăn sáng</span></td>
                 </tr>
                 <tr>
-                  <td><i class="fa-solid fa-cat"></i>Thú cưng</td>
+                  <td><i class="fa-solid fa-cat"></i><span>Thú cưng</span></td>
                   <td><a href="#" data-bs-toggle="offcanvas" data-bs-target="#amenties-policiesOffcanvas"
-                      onclick="showContent('policies')">Xem thêm</a>
+                      onclick="showContent('policies')" style="color: blue;"><i class="fa-solid fa-magnifying-glass"></i><span>Xem thêm </span></a>
                   </td>
                 </tr>
               </table>
@@ -797,7 +797,7 @@
                   </div>
                   <div class="col">
                     <div class="review-title">
-                      <span>Cleanliness</span> <span>4.5</span>
+                      <span>Amenities</span> <span>4.5</span>
                     </div>
                     <div class="review-bar">
                       <div class="inner-bar"></div>
@@ -805,7 +805,7 @@
                   </div>
                   <div class="col">
                     <div class="review-title">
-                      <span>Cleanliness</span> <span>4.5</span>
+                      <span>Location</span> <span>4.5</span>
                     </div>
                     <div class="review-bar">
                       <div class="inner-bar"></div>
@@ -813,7 +813,7 @@
                   </div>
                   <div class="col">
                     <div class="review-title">
-                      <span>Cleanliness</span> <span>4.5</span>
+                      <span>Service</span> <span>4.5</span>
                     </div>
                     <div class="review-bar">
                       <div class="inner-bar"></div>
@@ -850,301 +850,352 @@
                     <div class="card">
                       <div class="card-head">
                         <div class="card-avatar">
-                          <img src="/img/BecomeSupplier/content01.jpg" alt="...">
+                          <img src="../img/BecomeSupplier/content01.jpg" alt="...">
                         </div>
                         <div class="card-info">
                           <h5 class="card-title">Trinh Thao</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
                         </div>
                       </div>
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                          bulk
-                          of
-                          the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
                   </a>
                 </div>
-
-                <div class="carousel-item active">
+    
+                <div class="carousel-item ">
                   <a href="#">
                     <div class="card">
                       <div class="card-head">
                         <div class="card-avatar">
-                          <img src="/img/BecomeSupplier/content01.jpg" alt="...">
+                          <img src="../img/BecomeSupplier/content01.jpg" alt="...">
                         </div>
                         <div class="card-info">
                           <h5 class="card-title">Trinh Thao</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
                         </div>
                       </div>
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                          bulk
-                          of
-                          the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
                   </a>
                 </div>
-
-                <div class="carousel-item active">
+    
+                <div class="carousel-item ">
                   <a href="#">
                     <div class="card">
                       <div class="card-head">
                         <div class="card-avatar">
-                          <img src="/img/BecomeSupplier/content01.jpg" alt="...">
+                          <img src="../img/BecomeSupplier/content01.jpg" alt="...">
                         </div>
                         <div class="card-info">
                           <h5 class="card-title">Trinh Thao</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
                         </div>
                       </div>
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                          bulk
-                          of
-                          the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
                   </a>
                 </div>
-
-                <div class="carousel-item active">
+    
+                <div class="carousel-item ">
                   <a href="#">
                     <div class="card">
                       <div class="card-head">
                         <div class="card-avatar">
-                          <img src="/img/BecomeSupplier/content01.jpg" alt="...">
+                          <img src="../img/BecomeSupplier/content01.jpg" alt="...">
                         </div>
                         <div class="card-info">
                           <h5 class="card-title">Trinh Thao</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
                         </div>
                       </div>
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                          bulk
-                          of
-                          the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
                   </a>
                 </div>
-
-                <div class="carousel-item active">
+    
+                <div class="carousel-item ">
                   <a href="#">
                     <div class="card">
                       <div class="card-head">
                         <div class="card-avatar">
-                          <img src="/img/BecomeSupplier/content01.jpg" alt="...">
+                          <img src="../img/BecomeSupplier/content01.jpg" alt="...">
                         </div>
                         <div class="card-info">
                           <h5 class="card-title">Trinh Thao</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
                         </div>
                       </div>
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                          bulk
-                          of
-                          the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
                   </a>
                 </div>
-
-                <div class="carousel-item active">
+    
+                <div class="carousel-item ">
                   <a href="#">
                     <div class="card">
                       <div class="card-head">
                         <div class="card-avatar">
-                          <img src="/img/BecomeSupplier/content01.jpg" alt="...">
+                          <img src="../img/BecomeSupplier/content01.jpg" alt="...">
                         </div>
                         <div class="card-info">
                           <h5 class="card-title">Trinh Thao</h5>
-                          <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">1/2/2024</h6>
                         </div>
                       </div>
                       <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the
-                          bulk
-                          of
-                          the card's content.</p>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       </div>
                     </div>
                   </a>
                 </div>
+              </div>
+    
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
+      </div>
+
+      
+        
+      
+
+</div>
+      
+
+      <div class="policies-room">
+        <div class="policy-title">
+          <h2>Property Policies</h2>
+        </div>
+        <div class="policy-inner">
+          <div class="row g-0 ">
+            <div class="col-6 col-md-4"><p>Check-in and Check-out Times</p></div>
+            <div class="col-sm-6 col-md-8">
+              <div class="policy-item"><span>Check-in: </span><i> After 15:00</i></div>
+              <div class="policy-item"><span>Check-out: </span> <i> Before 12:00</i> </div>
+              <div class="policy-item"><span>Front desk hours: 24/7</span></div>
+            </div>
+
+          </div>
+
+
+          <div class="row g-0 ">
+            <div class="col-6 col-md-4"><p>Child Policies</p></div>
+            <div class="col-sm-6 col-md-8">
+              <div class="policy-item"><span>Children of all ages are welcome at this hotel.</span></div>
+              <div class="policy-item"><span>Children between 0 and 11 years old can stay for free if no extra bed is needed.
+              </span> </div>
+            </div>
+
+          </div>
+
+          <div class="row g-0 ">
+            <div class="col-6 col-md-4"><p>Cribs and Extra Beds</p></div>
+            <div class="col-sm-6 col-md-8">
+              <div class="policy-item"><span>
+                Extra bed and crib policies may vary according to room type. Please refer to the room type details for more information.</span></div>
+              
+            </div>
+
+          </div>
+
+          <div class="row g-0 ">
+            <div class="col-6 col-md-4"><p>Cribs and Extra Beds</p></div>
+            <div class="col-sm-6 col-md-8">
+              <div class="policy-item"><span>Style </span><i>Buffet</i></div>
+              <hr>
+              <div class="hour-open">
+                <span>Opening Hours</span> <i>[Mon-Sun] 6:00 - 10:00 Open</i>
+              </div>
+              <div class="hour-table">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Age</th>
+                      <th scope="col">Fee</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Children 11 years old and under</th>
+                      <td>HK$150.00 (approx. VND 474,207) per person</td>
+                    
+                    </tr>
+                    <tr>
+                      <th scope="row">Adult</th>
+                      <td>HK$250.00 (approx. VND 790,344) per person</td>
+                      
+                    </tr>
+                  
+                  </tbody>
+                </table>
+              </div>
+              <div class="policy-des">
+                <span>Additional breakfast fees are not included in the total and need to be paid at the property.</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="service-room">
+
+      </div>
+
+      <div class="recommend-other">
+          
+              <div id="carouselExampleControls2" class="carousel">
+                <h2>Có thể bạn cũng thích</h2>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="#">
+                      <div class="card">
+                        <div class="img-wrapper">
+                          <img src="../img/TopPicks/Hotel_1.webp" alt="Cozrum Homes - Sonata Residence">
+                        </div>
+                        <div class="card-body">
+                          <a class="click-item" href="#">
+                            <h5 class="card-title">Cozrum Homes - Sonata Residence</h5>
+                          </a>
+                          <p class="card-text">Đường Nguyễn Thị Thập, Phường Tân Phú, Quận 7, TP.HCM | Cách trung tâm thành
+                            phố 5.2 km</p>
+                          <a href="#" class="btn btn-primary"><span class="from">From</span> VND
+                            1,015,000</a>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+      
+                  <div class="carousel-item ">
+                    <a href="#">
+                      <div class="card">
+                        <div class="img-wrapper">
+                          <img src="../img/TopPicks/Hotel_2.webp" alt="Holiday Inn & Suites Saigon Airport">
+                        </div>
+                        <div class="card-body">
+                          <a class="click-item" href="#">
+                            <h5 class="card-title">Holiday Inn & Suites Saigon Airport</h5>
+                          </a>
+                          <p class="card-text">Đường Cộng Hòa, Quận Tân Bình, TP.HCM | Cách trung tâm thành phố 4.7 km</p>
+                          <a href="#" class="btn btn-primary"><span class="from">From</span> VND
+                            2,324,245</a>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+      
+                  <div class="carousel-item ">
+                    <a href="#">
+                      <div class="card">
+                        <div class="img-wrapper">
+                          <img src="../img/TopPicks/Hotel_3.webp" alt="LA VELA SAIGON HOTEL">
+                        </div>
+                        <div class="card-body">
+                          <a class="click-item" href="#">
+                            <h5 class="card-title">LA VELA SAIGON HOTEL</h5>
+                          </a>
+                          <p class="card-text">Đường Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM | Cách trung tâm thành phố 1.8 km</p>
+                          <a href="#" class="btn btn-primary"><span class="from">From</span> VND
+                            3,438,555</a>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+      
+                  <div class="carousel-item ">
+                    <a href="#">
+                      <div class="card">
+                        <div class="img-wrapper">
+                          <img src="../img/TopPicks/Hotel_4.webp" alt="Wink Hotel Saigon Centre">
+                        </div>
+                        <div class="card-body">
+                          <a class="click-item" href="#">
+                            <h5 class="card-title">Wink Hotel Saigon Centre</h5>
+                          </a>
+                          <p class="card-text">Đường Nguyễn Bỉnh Khiêm, Quận 1, TP.HCM | Cách trung tâm thành phố 1.3 km</p>
+                          <a href="#" class="btn btn-primary"><span class="from">From</span> VND
+                            1,234,568</a>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+      
+                  <div class="carousel-item ">
+                    <a href="#">
+                      <div class="card">
+                        <div class="img-wrapper">
+                          <img src="../img/TopPicks/Hotel_5.webp" alt="Oakwood Hotel & Apartments Saigon">
+                        </div>
+                        <div class="card-body">
+                          <a class="click-item" href="#">
+                            <h5 class="card-title">Oakwood Hotel & Apartments Saigon</h5>
+                          </a>
+                          <p class="card-text">Đường Ung Văn Khiêm, Quận Bình Thạnh, TP.HCM | Cách trung tâm thành phố 4.5 km
+                          </p>
+                          <a href="#" class="btn btn-primary"><span class="from">From</span> VND
+                            2,081,226</a>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+      
+                  <div class="carousel-item ">
+                    <a href="#">
+                      <div class="card">
+                        <div class="img-wrapper">
+                          <img src="../img/TopPicks/Hotel_6.webp" alt="M City Hotel Saigon">
+                        </div>
+                        <div class="card-body">
+                          <a class="click-item" href="#">
+                            <h5 class="card-title">M City Hotel Saigon</h5>
+                          </a>
+                          <p class="card-text"> Đường Phạm Hồng Thái, Quận 1, TP.HCM | Cách trung tâm thành phố 500 m</p>
+                          <a href="#" class="btn btn-primary"><span class="from">From</span> VND
+                            4,234,455</a>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+      
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2"
                   data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2"
                   data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-            </div>
+            
 
-          </div>
-
-        </div>
-
-        <div class="policies-room">
-
-        </div>
-
-        <div class="service-room">
-
-        </div>
-
-        <div class="recommend-other">
-
-          <div id="carouselExampleControls1" class="carousel">
-            <h2>Có thể bạn cũng thích</h2>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="#">
-                  <div class="card">
-                    <div class="img-wrapper">
-                      <img src="../img/TopPicks/Hotel_1.webp" alt="Cozrum Homes - Sonata Residence">
-                    </div>
-                    <div class="card-body">
-                      <a class="click-item" href="#">
-                        <h5 class="card-title">Cozrum Homes - Sonata Residence</h5>
-                      </a>
-                      <p class="card-text">Đường Nguyễn Thị Thập, Phường Tân Phú, Quận 7, TP.HCM | Cách trung
-                        tâm
-                        thành
-                        phố 5.2 km</p>
-                      <a href="#" class="btn btn-primary"><span class="from">From</span> VND
-                        1,015,000</a>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="carousel-item active">
-                <a href="#">
-                  <div class="card">
-                    <div class="img-wrapper">
-                      <img src="../img/TopPicks/Hotel_2.webp" alt="Holiday Inn & Suites Saigon Airport">
-                    </div>
-                    <div class="card-body">
-                      <a class="click-item" href="#">
-                        <h5 class="card-title">Holiday Inn & Suites Saigon Airport</h5>
-                      </a>
-                      <p class="card-text">Đường Cộng Hòa, Quận Tân Bình, TP.HCM | Cách trung tâm thành phố 4.7
-                        km
-                      </p>
-                      <a href="#" class="btn btn-primary"><span class="from">From</span> VND
-                        2,324,245</a>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="carousel-item active">
-                <a href="#">
-                  <div class="card">
-                    <div class="img-wrapper">
-                      <img src="../img/TopPicks/Hotel_3.webp" alt="LA VELA SAIGON HOTEL">
-                    </div>
-                    <div class="card-body">
-                      <a class="click-item" href="#">
-                        <h5 class="card-title">LA VELA SAIGON HOTEL</h5>
-                      </a>
-                      <p class="card-text">Đường Nam Kỳ Khởi Nghĩa, Quận 3, TP.HCM | Cách trung tâm thành phố
-                        1.8 km
-                      </p>
-                      <a href="#" class="btn btn-primary"><span class="from">From</span> VND
-                        3,438,555</a>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="carousel-item active">
-                <a href="#">
-                  <div class="card">
-                    <div class="img-wrapper">
-                      <img src="../img/TopPicks/Hotel_4.webp" alt="Wink Hotel Saigon Centre">
-                    </div>
-                    <div class="card-body">
-                      <a class="click-item" href="#">
-                        <h5 class="card-title">Wink Hotel Saigon Centre</h5>
-                      </a>
-                      <p class="card-text">Đường Nguyễn Bỉnh Khiêm, Quận 1, TP.HCM | Cách trung tâm thành phố
-                        1.3 km
-                      </p>
-                      <a href="#" class="btn btn-primary"><span class="from">From</span> VND
-                        1,234,568</a>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="carousel-item active">
-                <a href="#">
-                  <div class="card">
-                    <div class="img-wrapper">
-                      <img src="../img/TopPicks/Hotel_5.webp" alt="Oakwood Hotel & Apartments Saigon">
-                    </div>
-                    <div class="card-body">
-                      <a class="click-item" href="#">
-                        <h5 class="card-title">Oakwood Hotel & Apartments Saigon</h5>
-                      </a>
-                      <p class="card-text">Đường Ung Văn Khiêm, Quận Bình Thạnh, TP.HCM | Cách trung tâm thành
-                        phố
-                        4.5
-                        km
-                      </p>
-                      <a href="#" class="btn btn-primary"><span class="from">From</span> VND
-                        2,081,226</a>
-                    </div>
-                  </div>
-                </a>
-              </div>
-
-              <div class="carousel-item active">
-                <a href="#">
-                  <div class="card">
-                    <div class="img-wrapper">
-                      <img src="../img/TopPicks/Hotel_6.webp" alt="M City Hotel Saigon">
-                    </div>
-                    <div class="card-body">
-                      <a class="click-item" href="#">
-                        <h5 class="card-title">M City Hotel Saigon</h5>
-                      </a>
-                      <p class="card-text"> Đường Phạm Hồng Thái, Quận 1, TP.HCM | Cách trung tâm thành phố 500
-                        m
-                      </p>
-                      <a href="#" class="btn btn-primary"><span class="from">From</span> VND
-                        4,234,455</a>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-
-
-        </div>
+      </div>
 
         <div class="faq-hotel">
           <div class="faq-title">
@@ -1374,7 +1425,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-  <script src="../js/index.js"></script>
+  <script src="../js/min_item.js"></script>
 </body>
 
 </html>

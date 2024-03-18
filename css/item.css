@@ -457,7 +457,6 @@ h3 {
     width: 75%;
 }
 
-
 .form-label {
     font-weight: bold;
 }
@@ -469,13 +468,15 @@ h3 {
 .body_left .col-10 {
     background-color: white;
     padding: 5%;
-    /* border-radius: 5%; */
     margin-bottom: 1%;
     width: 95%;
 }
 
 .moreContent {
     display: none;
+    color: black;
+    font-weight: 0;
+
 }
 
 #btn-more-location,

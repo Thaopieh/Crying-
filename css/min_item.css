@@ -7,13 +7,14 @@ body {
     font-display: swap;
     padding: 0px;
     margin: 0px;
+    background-color: whitesmoke;
 }
 
 ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -554,9 +555,7 @@ h5 {
     background-color: white;
 }
 
-.carousel{
-    
-}
+.carousel {}
 
 
 
@@ -664,56 +663,191 @@ footer img {
     border: 1px solid blue;
 }
 
-/* review  */
+/* hotel-sumary */
+.hotel-summary {
+    background-color: white;
+    padding:1%;
+}
+
+#introduction-more {
+    display: none;
+}
+
+/* modal button */
+.left-sumary .btn {
+    color: #2953d6;
+    text-decoration-line: underline;
+    font-size: 90%;
+    border: none;
+    padding: 0;
+}
+
+.left-sumary p {
+    font-size: 80%;
+    color: #6b6b6b;
+}
+
+.deleted-price {
+    text-decoration-line: line-through;
+    font-size: 70%;
+    color: #6b6b6b;
+    text-align: right;
+    padding: 0%;
+}
+
+.real-price {
+    font-size: 130%;
+    color: #023e92;
+    font-weight: bold;
+    padding: 0%;
+}
+
+.select-rooms {
+    padding: 0;
+    text-align: left;
+}
+
+.select-rooms .btn {
+    background-color: #3365FF;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.tabs .btn {
+    color: #2953d6;
+    font-size: 100%;
+    border: none;
+}
+
+.tabs .btn:hover {
+    text-decoration: underline;
+}
+
+.scrollspy-example img {
+    width: 100;
+    border-radius: 10%;
+    margin: 5%
+}
+
+.scrollspy-example p {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.amenties,
+.policies {
+    background-color: white;
+    margin-top: 2%;
+}
+
+.amenties p,
+.policies p {
+    font-size: 110%;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.amenties table {
+    border-spacing: 10%s
+}
+
+.offcanvas {
+    background-color: whitesmoke;
+}
+
+.offcanvas-body .btn {
+    color: #2953d6;
+    font-size: 100%;
+    border: none;
+}
+
+.offcanvas-body .btn:hover {
+    text-decoration: underline;
+}
+
+.content p {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.amenties-item {
+    background-color: white;
+    margin: 1%;
+    padding: 1%;
+    font-size: 80%;
+    border-end-start-radius: 5%;
+}
+
+.amenties-item p {
+    margin-bottom: 0;
+}
+
+.policies-item {
+    font-size: 80%;
+}
+
+.policies-item table,
+.policies-item th,
+.policies-item td {
+    border: 1px solid black;
+    padding: 2%;
+}
+
+/* review */
 .review-wrap,
 .review-score {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.review-category{
+.review-category {
     width: 60%;
 }
-.score{
+
+.score {
     background-color: #023e92;
-    color:#e4e4e4;
+    color: #e4e4e4;
     border-radius: 20px 0 20px 20px;
     width: 100px;
     text-align: center;
     height: 40px;
     /* margin: 10px; */
-    
+
 }
-strong{
+
+strong {
     font-size: x-large;
     font-weight: bold;
     color: white;
 }
 
-.col{
+.col {
     padding: 0 15px;
 }
 
-.review-score{
+.review-score {
     width: 250px;
     font-size: x-large;
     font-weight: bold;
 }
-.review-rank{
-    font-size:x-large;
+
+.review-rank {
+    font-size: x-large;
     font-weight: bold;
     color: #023e92;
     text-align: center;
     /* margin-top: 10px; */
 }
 
-.review-bar{
+.review-bar {
     background-color: #e4e4e4;
     width: 100%;
     height: 10px;
     border-radius: 5px;
 }
-.inner-bar{
+
+.inner-bar {
     width: 85%;
     background-color: #023e92;
     height: 100%;
@@ -721,50 +855,53 @@ strong{
 }
 
 
-.review-tag{
+.review-tag {
     margin: 20px 0;
 }
-.review-tag-item button{
-    background-color:#efeeee;
+
+.review-tag-item button {
+    background-color: #efeeee;
     border: none;
     /* margin: 10px; */
 }
 
-.review-tag-item{
+.review-tag-item {
     margin: 10px;
     margin-left: 0;
 }
 
-.card-head{
+.card-head {
     display: flex;
     justify-content: space-between;
     padding: 15px;
 }
-.card-avatar{
+
+.card-avatar {
     width: 50px;
     height: 50px;
 
 }
 
-.card-avatar img{
+.card-avatar img {
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
 
-.card-info{
+.card-info {
     width: 73%;
 }
-.card-head h5{
+
+.card-head h5 {
     /* padding: 0; */
     margin: 0;
     height: 50%;
 }
 
-.card-info{
+.card-info {
     margin-left: 15px;
 }
 
-.guest-comment .card{
+.guest-comment .card {
     width: 17rem;
 }

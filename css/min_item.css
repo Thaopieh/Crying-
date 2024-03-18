@@ -666,7 +666,7 @@ footer img {
 /* hotel-sumary */
 .hotel-summary {
     background-color: white;
-    padding:1%;
+    padding: 1%;
 }
 
 #introduction-more {
@@ -791,7 +791,19 @@ footer img {
 .policies-item th,
 .policies-item td {
     border: 1px solid black;
-    padding: 2%;
+    padding: 1%;
+}
+
+.login-banner {
+    background-color: white;
+    margin-top: 1%;
+    padding: 0.2%
+}
+
+.get-lower-price {
+    padding: 1.8%;
+    text-align: left;
+    background-image: linear-gradient(to right, rgba(198, 190, 40, 0.26), rgba(255, 0, 0, 0));
 }
 
 /* review */

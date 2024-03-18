@@ -143,17 +143,10 @@
 
     }
 
-    #btn-back-to-top {
-        position: fixed;
-        bottom: 400px;
-        right: 20px;
-        display: none;
-        width: 60px;
-        height: 60px;
-        background-color: blue;
-        border: 1px solid blue;
+    #mid {
+        margin-right: 3px;
     }
-
+    
     #service-chat {
         position: fixed;
         bottom: 338px;
@@ -165,6 +158,31 @@
         background-color: blue;
         border: 1px solid blue;
     }
+    
+    
+    #chatbot {
+        position: fixed;
+        bottom: 275px;
+        right: 20px;
+        /* display: none; */
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        background-color: blue;
+        border: 1px solid blue;
+    }
+    
+    #btn-back-to-top {
+        position: fixed;
+        bottom: 400px;
+        right: 20px;
+        display: none;
+        width: 60px;
+        height: 60px;
+        background-color: blue;
+        border: 1px solid blue;
+    }
+    
     .index_content {
         max-width: 1160px;
         margin: 60px auto;
@@ -182,6 +200,12 @@
         font-size: 14px;
         line-height: 18px;
         margin-top: 8px;
+    }
+
+    .tips_wrap{
+        display: flex;
+        justify-content: space-between;
+
     }
 
     .business-title {
@@ -294,6 +318,11 @@
         margin-top: 32px;
         display: flex;
         padding-left: 0;
+        /* background-color: #e4e4e4; */
+    }
+
+    .advan_info_cont{
+        background-color: #f2f2f2;
     }
 
     .index_content .text_content .index_info_list li.info_li.description {
@@ -374,3 +403,10 @@
         flex: 1;
         padding: 16px 8px;
     }
+
+    footer {
+        padding: 64px 20px 0px;
+        margin: 0 10%;
+    }
+
+    

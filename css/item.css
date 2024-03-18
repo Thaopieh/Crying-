@@ -13,7 +13,7 @@ ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
@@ -422,7 +422,7 @@ footer {
 
 
 /* body  */
-h3{
+h3 {
     font-size: 16px;
 }
 
@@ -440,12 +440,14 @@ h3{
     margin: 1% 0;
 
 }
-#filte-dropdown{
+
+#filte-dropdown {
     width: 250px;
     background-color: #fff;
     color: black;
     border: none;
 }
+
 .body_left {
     width: 25%;
 }
@@ -460,9 +462,10 @@ h3{
     font-weight: bold;
 }
 
-.main_body{
+.main_body {
     background-color: #f4f4f4;
 }
+
 .body_left .col-10 {
     background-color: white;
     padding: 5%;
@@ -475,20 +478,25 @@ h3{
     display: none;
 }
 
-#btn-more-location, #btn-more-bed-type, #btn-more-property-fac-and-services, #btn-more-room-type, #btn-more-room-fac-and-services{
+#btn-more-location,
+#btn-more-bed-type,
+#btn-more-property-fac-and-services,
+#btn-more-room-type,
+#btn-more-room-fac-and-services {
     background-color: white;
     color: blue;
     border: none;
 }
 
-#price{
+#price {
     border-radius: 8px 8px 0 0;
 }
-.fa-star{
+
+.fa-star {
     color: rgb(235, 235, 16);
 }
 
-.room-type-price{
+.room-type-price {
     display: flex;
     justify-content: space-between;
     background-color: #f4f4f4;
@@ -496,67 +504,79 @@ h3{
     margin: 1% 0;
 
 }
+
 img {
     width: 100%;
     height: 100%;
-  }
-p{
+}
+
+p {
     margin: 0;
 }
-.col-md-4{
+
+.col-md-4 {
     text-align: center;
 }
 
-.room-type{
+.room-type {
     padding-top: 8px;
     padding-left: 16px;
 }
 
-.room-price{
- text-align: right;   
- font-size: x-large;
- font-weight: bold;
- 
+.room-price {
+    text-align: right;
+    font-size: x-large;
+    font-weight: bold;
+
 
 }
-.get-lower-price{
+
+.get-lower-price {
     text-align: right;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(198, 190, 40, 0.26));
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(198, 190, 40, 0.26));
 }
-#search-bu{
+
+#search-bu {
     color: white;
 }
-i{
+
+i {
     margin-right: 0.2em;
 }
 
-.fa-key{
+.fa-key {
     transform: scaleY(-1);
-    color:orange;
+    color: orange;
 }
 
-span{
+span {
     color: #2953d6;
     font-size: medium;
     font-weight: 500;
 }
 
-.wrap-img{
+.wrap-img {
     width: 33%;
 }
 
-.col-md-4{
+.col-md-4 {
     width: 100%;
     height: 100%;
 
 }
 
-.dropdown-menu{
+.dropdown-menu {
     width: 250px;
 }
 
 
 
+/* review  */
+.review-wrap,
+.review-score {
+    display: flex;
+    justify-content: space-around;
+}
 
 
 /* footer  */

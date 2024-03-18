@@ -1,0 +1,76 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+    /* font: 12px / 1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-display: swap;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+.main-container {
+    min-height: 300px;
+}
+
+.mc-hd {
+    position: relative;
+    line-height: 1.5;
+    padding: 0 32px;
+}
+
+.mc-hd,.mc-hd_line {
+    background-color: #fff;
+    color: #0f294d;
+    font-size: 12px;
+}
+
+
+.mc-hd .mc-hd__inner {
+    position: relative;
+    max-width: 1920px;
+}
+
+.mc-hd__flex-con {
+    width: 100%;
+    height: 66px;
+    position: relative;
+}
+
+.clear-float {
+    content: "";
+    clear: both;
+}
+
+.mc-hd__logo-con {
+    padding: 16px 32px 16px 0;
+    float: left;
+}
+
+.mc-hd__logo-layout-0 .mc-hd__logo {
+    display: inline-block;
+    width: 124px;
+    height: 30px;
+    background-size: contain;
+    margin: 2px 0;
+    vertical-align: top;
+}
+
+.mc-hd a, .mc-hd a:hover {
+    text-decoration: none;
+}
+
+.mc-hd h1 {
+    
+}
+.mc-hd a {
+    color: #0f294d;
+    cursor: pointer;
+}

@@ -10,6 +10,9 @@ body {
     background-color: whitesmoke;
 }
 
+h2{
+    font-size: x-large;
+}
 ul {
     list-style: none;
 }
@@ -813,6 +816,9 @@ footer{
     background-color: white;
 }
 /* review */
+.review h2{
+    margin-bottom: 15px;
+}
 .review, .policies-room, .recommend-other{
     background-color: #fff;
     margin: 15px 0;

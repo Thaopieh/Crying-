@@ -535,7 +535,7 @@ h5 {
     text-wrap: wrap;
 }
 
-.btn-primary {
+.card-body .btn-primary {
     position: absolute;
     top: 89%;
     left: 35%;
@@ -550,17 +550,6 @@ h5 {
     font-size: 13px;
     color: #455873;
 }
-
-.btn-primary:hover {
-    color: black;
-    border: none;
-    background-color: white;
-}
-
-.carousel {}
-
-
-
 
 
 
@@ -961,4 +950,221 @@ strong {
  .policy-inner .row i{
     font-weight: bold;
     margin-left: 10px;
+ }
+ *
+ {
+     margin: 0;
+     padding : 0;
+     font-size: 16px;
+ 
+ }
+ 
+ .select-hotel .container-fluid{
+     margin: 0 auto;
+     padding: 16px;
+     margin-top: 16px;
+     border-radius: 8px;
+     background-color: #fff;
+ 
+ }
+ .select-hotel .baseroom .baseroom_img{
+     width: 100%;
+     margin-bottom: 8px;
+ }
+ .select-hotel .baseroom .baseroom_img1 .hotel_image{
+     width: 100%;
+     margin-bottom: 8px;
+     padding: 0;
+ }
+ .select-hotel .baseroom{
+     width: 100%;
+ }
+ .select-hotel .col-6 {
+     margin: 0;
+ }
+ .material-symbols-outlined {
+   font-variation-settings:
+   'FILL' 0,
+   'wght' 400,
+   'GRAD' 0,
+   'opsz' 24
+ }
+ 
+ .select-hotel .baseRoom_baseRoom-facility_title__4PawP {
+     font-size: 14px;
+     line-height: 14px;
+     margin-left: 8px;
+ }
+ .select-hotel .baseroom img{
+     border-radius: 10px;
+ }
+ .saleRoom_saleRoomItemBox-reservationNotesInfo_minPriceInfo__GkoVL {
+     position: relative;
+     left: -17px;
+     top: -8px;
+     margin-bottom: 8px;
+     padding: 2px 8px;
+     display: inline-block;
+     background: linear-gradient(-227.75deg, #f94c86, #ff6d87);
+     border-radius: 4px 4px 4px 0;
+     box-shadow: 0 2px 10px 0 rgba(79,79,79,.1), inset 1px 1px 2px 0 hsla(0,0%,100%,.5);
+     font-size: 12px;
+     font-weight: 700;
+     color: #fff;
+ }
+ .saleRoom_saleRoomItemBox-reservationNotesInfo_premiumInfo__80Cez {
+     position: relative;
+     left: -17px;
+     top: -8px;
+     margin-bottom: 8px;
+     padding: 2px 8px;
+     display: inline-block;
+     background: #ebf9fa;
+     color: #06aebd;
+     border: 0.5px solid #06aebd;
+     border-radius: 4px 4px 4px 0;
+     box-shadow: 0 2px 2px 0 rgba(79,79,81,.1);
+     font-size: 12px;
+ }
+ .select-hotel .hotel_room{
+     padding: 16px 8px;
+ }
+ .select-hotel .container .row:first-child{
+     border: none;
+     padding: 8px 0;
+     background: #f5f7fa;
+     color: #0f294d;
+     font-size: 14px;
+     font-weight: 700;
+     border: 1px solid #ced2d9;
+     border-bottom: none;
+     border-radius: 4px 4px 0 0;
+ }
+ .select-hotel .col-lg-10 .col-lg-2{
+     border: 1px solid #ced2d9;
+ }
+ .select-hotel .col-lg-10 .col-lg-5{
+     border: 1px solid #ced2d9;
+ }
+ .select-hotel .people
+ {
+     text-align: center;
+     justify-content: center;
+     padding: 5em 0 5em 0;}
+ .select-hotel .container-fluid h2{
+     margin-bottom: 20px;
+ }
+ .select-hotel .baseroom_bed span{
+     color: #0f294d;
+     font-weight: 700;
+     line-height: 22px;
+     align-items: center;
+     flex-wrap: wrap;
+     font-size: 22px;
+ }
+ .select-hotel .baseroom_bed
+ {
+     margin-top: 10px;
+ }
+ .select-hotel .baseroom_item .item{
+     margin-top: 6px;
+     font-size: 14px;
+ }
+ .select-hotel .baseRoom_baseRoom-facility_title__4PawP {
+     font-size: 14px;
+     line-height: 14px;
+     margin-left: 8px;
+     color: #455873;
+ }
+ .select-hotel .room-price{
+     align-items: center;
+     justify-content: flex-end;
+     flex-wrap: wrap;
+     cursor: default;
+     text-align: center;
+     padding: 20% 0 20% 0;
+ }
+ .select-hotel .room-price p{
+     font-size: 24px;
+     color: #0f294d;
+     line-height: 30px;
+     font-weight: 700;
+ }
+ .select-hotel .hotel_room .info{
+     color: #0f294d;
+     font-size: 14px;
+     padding: 0 8px;
+     line-height: 18px;
+     margin-bottom: 8px;
+     display: flex;
+     justify-content: space-between;
+ }
+ .select-hotel .col-lg-10 .row{
+     width: 100%;
+     grid-template-rows: 1fr 1fr 1fr;
+ }
+ 
+ /* reponsive max 990 nhé */
+ @media (max-width: 990px) {
+     .select-hotel  .container .row:first-child #import1, #import2,#import3
+     {
+         text-align:left !important;
+     }
+   }
+ .service-room .item{
+     display: flex;
+     text-align: left;
+ }
+ .service-room .item span{
+     margin-top: 5px;
+     font-size: 16px;
+     line-height: 22px;
+     margin-right: 16px;
+ }
+ .service-room .item p{
+     margin-bottom: 5px;
+     font-size: 14px;
+     line-height: 34px;
+     color : #0f294d;
+     font-weight: 400;
+     text-align: center;
+ }
+ .service-room h3{
+     margin-bottom: 20px;
+     line-height: 18px;
+     font-size: 18px;
+     margin-bottom: 16px;
+     color: #0f294d;
+     font-weight: 700;
+ }
+ .service-room h2{
+     margin-bottom: 20px;
+     line-height: 18px;
+     font-size: 28px;
+     margin-bottom: 16px;
+     color: #0f294d;
+     font-weight: 700;
+ }
+ .service-room .carousel-caption{
+     position: absolute;
+     bottom: 0;
+     font-size: 12px;
+     line-height: 34px;
+     text-shadow: black !important;
+     color: #fff;
+     font-weight: 500;
+     text-align: center;
+     border-radius: 8px;
+     padding: 1px;
+     box-sizing: border-box;
+ }
+ .service-room .btn
+ {
+     padding : 0;
+ }
+ .service-room{
+     margin : 30px 0;
+     background-color: white;
+     border-radius: 5px;
+     padding: 20px 15px;
  }

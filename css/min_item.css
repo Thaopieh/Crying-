@@ -12,6 +12,7 @@ body {
 
 h2{
     font-size: x-large;
+    font-weight: 700;
 }
 ul {
     list-style: none;
@@ -20,6 +21,9 @@ ul {
 a {
     text-decoration: none;
     color: black;
+}
+h1 a{
+    font-size: 40px;
 }
 
 /* body  */
@@ -444,6 +448,7 @@ img {
 }
 
 
+
 @media screen and (min-width: 576px) {
     .carousel-inner {
         display: flex;
@@ -555,9 +560,9 @@ h5 {
 
 
 /* footer  */
-footer img {
-    width: 1176px;
-    height: 499px;
+.footer__item img{
+    width: 50px;
+    height: 50px;
 }
 footer{
     background-color: #fff;
@@ -1060,15 +1065,22 @@ strong {
      line-height: 22px;
      align-items: center;
      flex-wrap: wrap;
-     font-size: 22px;
+     /* font-size: 24px; */
  }
- .select-hotel .baseroom_bed
+ .select-hotel .baseroom_bed 
  {
+    display: flex;
      margin-top: 10px;
  }
  .select-hotel .baseroom_item .item{
      margin-top: 6px;
      font-size: 14px;
+     display: flex;
+     align-items: center;
+ }
+
+ .select-hotel .baseroom_bed .type-bed{
+    margin-left:8px ;
  }
  .select-hotel .baseRoom_baseRoom-facility_title__4PawP {
      font-size: 14px;
@@ -1140,11 +1152,16 @@ strong {
  .service-room h2{
      margin-bottom: 20px;
      line-height: 18px;
-     font-size: 28px;
+     font-size: x-large;
      margin-bottom: 16px;
      color: #0f294d;
      font-weight: 700;
  }
+ .service-room h3{
+    font-size: large;
+    font-weight: 500;
+ }
+
  .service-room .carousel-caption{
      position: absolute;
      bottom: 0;

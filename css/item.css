@@ -409,8 +409,7 @@ strong {
 }
 
 
-.body_container,
-footer {
+.body_container, .footer__main{
     padding: 64px 20px 0px;
     margin: 0 10%;
 }
@@ -457,7 +456,6 @@ h3 {
     width: 75%;
 }
 
-
 .form-label {
     font-weight: bold;
 }
@@ -469,13 +467,15 @@ h3 {
 .body_left .col-10 {
     background-color: white;
     padding: 5%;
-    /* border-radius: 5%; */
     margin-bottom: 1%;
     width: 95%;
 }
 
 .moreContent {
     display: none;
+    color: black;
+    font-weight: normal;
+
 }
 
 #btn-more-location,
@@ -532,7 +532,7 @@ p {
 }
 
 .get-lower-price {
-    text-align: right;
+    text-align: left;
     background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(198, 190, 40, 0.26));
 }
 
@@ -580,9 +580,9 @@ span {
 
 
 /* footer  */
-footer img {
-    width: 1176px;
-    height: 499px;
+.footer__item img{
+    width: 50px;
+    height: 50px;
 }
 
 .footer__main {

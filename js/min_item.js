@@ -1,3 +1,67 @@
+const multipleItemCarousel = document.querySelector(carouselId);
+
+if (multipleItemCarousel) { // Kiểm tra xem carousel có tồn tại không
+  if (window.matchMedia("(min-width:576px)").matches) {
+    const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+      interval: false
+    });
+
+    var carouselWidth = $(multipleItemCarousel).find(".carousel-inner").prop('scrollWidth');
+    var cardWidth = $(multipleItemCarousel).find(".carousel-item").width();
+
+    var scrollPosition = 0;
+
+    $(multipleItemCarousel).find(".carousel-control-next").on("click", function () {
+      if (scrollPosition < carouselWidth - cardWidth * 4) {
+        scrollPosition = scrollPosition + 4 * cardWidth;
+        $(multipleItemCarousel).find(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
+      }
+    });
+    $(multipleItemCarousel).find(".carousel-control-prev").on("click", function () {
+      if (scrollPosition > 0) {
+        scrollPosition = scrollPosition - 4 * cardWidth;
+        $(multipleItemCarousel).find(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
+      }
+    }); $(multipleItemCarousel).addClass("slide");
+  } else {
+    console.error("Carousel with ID " + carouselId + " not found.");
+  }
+}
+
+//Show more button
+function showMore() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("introduction-more");
+  var btnText = document.getElementById("btn-showMore");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Xem thêm";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Thu gọn";
+    moreText.style.display = "inline";
+  }
+}
+//  Modal
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+
+// image Modal details
+function showContent(type) {
+  var contents = document.querySelectorAll('.content');
+  for (var i = 0; i < contents.length; i++) {
+    contents[i].style.display = 'none';
+  }
+
+  document.getElementById(type).style.display = 'block';
+}
+
 //Get the button
 let mybutton = document.getElementById("btn-back-to-top");
 
@@ -23,37 +87,3 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-function setupCarousel(carouselId) {
-    const multipleItemCarousel = document.querySelector(carouselId);
-  
-    if (multipleItemCarousel) { // Kiểm tra xem carousel có tồn tại không
-      if (window.matchMedia("(min-width:576px)").matches) {
-        const carousel = new bootstrap.Carousel(multipleItemCarousel, {
-          interval: false
-        });
-  
-        var carouselWidth = $(multipleItemCarousel).find(".carousel-inner").prop('scrollWidth');
-        var cardWidth = $(multipleItemCarousel).find(".carousel-item").width();
-  
-        var scrollPosition = 0;
-  
-        $(multipleItemCarousel).find(".carousel-control-next").on("click", function () {
-          if (scrollPosition < carouselWidth - cardWidth * 4) {
-            scrollPosition = scrollPosition + 4*cardWidth;
-            $(multipleItemCarousel).find(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
-          }
-        });
-        $(multipleItemCarousel).find(".carousel-control-prev").on("click", function () {
-          if (scrollPosition > 0) {
-            scrollPosition = scrollPosition - 4*cardWidth;
-            $(multipleItemCarousel).find(".carousel-inner").animate({ scrollLeft: scrollPosition }, 600);
-          }
-        });
-      } else {
-        $(multipleItemCarousel).addClass("slide");
-      }
-    } else {
-      console.error("Carousel with ID " + carouselId + " not found.");
-    }
-  }

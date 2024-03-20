@@ -166,3 +166,22 @@ if (dropdown.style.display === "none" || dropdown.style.display === "") {
   dropdown.style.display = "none";
 }
 });
+const toggleBtn = document.querySelector('.toggle_btn');
+const toggleBtnIcon = document.querySelector('.toggle_btn i');
+const dropDownMenu = document.querySelector('.dropdown_menu');
+
+toggleBtn.addEventListener('click', function () {
+  // Kiểm tra trạng thái hiện tại của dropdown menu
+  const isOpen = dropDownMenu.style.display === 'block';
+
+  // Nếu dropdown menu đang ẩn, hiển thị nó và chuyển đổi biểu tượng
+  if (!isOpen) {
+    dropDownMenu.style.display = 'block';
+    toggleBtnIcon.classList.add('fa-xmark');
+    toggleBtnIcon.classList.remove('fa-bars');
+  } else { // Nếu dropdown menu đang hiển thị, ẩn nó và chuyển đổi biểu tượng
+    dropDownMenu.style.display = 'none';
+    toggleBtnIcon.classList.remove('fa-xmark');
+    toggleBtnIcon.classList.add('fa-bars');
+  }
+});

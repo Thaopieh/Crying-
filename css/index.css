@@ -17,6 +17,136 @@ ul {
 
 /* body  */
 /* header  */
+.toggle_btn{
+    display: none;
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.navi {
+    background-color: blue;
+    /* height: 120%; */
+}
+
+.navi a {
+    color: white;
+}
+
+.nav-item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.dropdown_menu {
+    display: none;
+    position: relative;
+    height: 340px;
+    width:100%;
+    background: #3B5CCA;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .dropdown_menu li {
+    padding : 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+@media (max-width :992px) {
+        .toggle_btn{
+            display: block;
+        }
+        .navbar1 ,.navi2{
+            display: none;
+        }
+        .navi .row{
+            display: flex;
+        }
+       .navi .row >*{
+        width: 33.3%;
+       }
+       table{
+        width:100%;
+    }
+
+    td{
+        display:block;
+        width:100%;
+    }
+
+    tr{
+        display:block;
+        margin-bottom:30px;
+    }
+    .seo-htl-table-info table tbody{
+        display: block !important;
+    }
+
+      #noi-dung-collapse1 .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 10px;
+      }
+      #noi-dung-collapse1 .row {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        font-size: 10px;
+      }
+  
+      #noi-dung-collapse1 .col {
+        width: 100%;
+      }
+      #noi-dung-collapse2 .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 10px;
+      }
+      #noi-dung-collapse2 .row {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        font-size: 10px;
+      }
+  
+      #noi-dung-collapse2 .col {
+        width: 100%;
+      }
+      #noi-dung-collapse3 .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1em;
+        grid-row-gap: 10px;
+      }
+      #noi-dung-collapse3 .row {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        font-size: 10px;
+      }
+  
+      #noi-dung-collapse3 .col {
+        width: 100%;
+      }
+      .recommended .btn{
+        font-size: 10px !important;
+      }
+}
 header {
     position: fixed;
     top: 0;
@@ -91,8 +221,6 @@ header {
 strong {
     font-size: 14px;
 }
-
-
 /* searcg bar  */
 .hotel-list-page {
     background-image: url("https://th.bing.com/th/id/R.a58d3f96c719a0e290df215fb32c20df?rik=o7vA8jsQSTNLxA&pid=ImgRaw&r=0");
@@ -441,8 +569,7 @@ footer {
     }
 
     .is-travel-working,
-    .star-rating,
-    .navbar {
+    .star-rating {
         display: none;
     }
 }

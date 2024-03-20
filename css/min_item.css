@@ -43,6 +43,15 @@ h1 {
     /* font-size: 0%; */
 }
 
+.toggle_btn{
+    display: none;
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
 .navi {
     background-color: blue;
     /* height: 120%; */
@@ -56,16 +65,38 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
+.dropdown_menu {
+    display: none;
+    position: relative;
+    height: 350px;
+    width:100%;
+    background: blue;
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+  }
 
-.navi li:hover a {
-    color: white;
-    border-bottom: 2px solid white;
-}
+  .dropdown_menu li {
+    padding : 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-.navi2 li:hover a {
-    color: white;
-    transition: 0.5s;
-    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+@media (max-width :992px) {
+        .navi .toggle_btn{
+            display: block;
+        }
+       .navi .navbar1 ,.navi2{
+            display: none;
+        }
+        .navi .row{
+            display: flex;
+        }
+       .navi .row >*{
+        width: 33.3%;
+       }
 }
 
 .header-search-booking-btn {

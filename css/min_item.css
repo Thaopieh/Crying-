@@ -348,6 +348,13 @@ strong {
     padding-bottom: 5px;
 }
 
+
+
+
+
+
+
+
 /* Dropdown */
 .dropdown {
     position: relative;
@@ -501,14 +508,17 @@ img {
 }
 
 .card {
-    margin: 0 0.4em;
+    margin: 0 0.3em;
     border-radius: 8px;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     font-size: 0.9em;
 }
 
+
 .card-body {
     height: 10rem;
+    padding: 16px 12px;
+    padding-top: 0px;
 }
 
 .carousel-control-prev,
@@ -517,7 +527,7 @@ img {
     height: 6vh;
     background-color: #3365FF;
     border-radius: 50%;
-    top: 58%;
+    top: 50%;
     transform: translateY(-50%);
     opacity: 0.5;
 }
@@ -577,7 +587,7 @@ h5 {
 .card-body .btn-primary {
     position: absolute;
     top: 89%;
-    left: 35%;
+    left: 30%;
     font-weight: bold;
     color: black;
     border: none;
@@ -663,7 +673,9 @@ footer {
 /* item ben phải  */
 #mid {
     margin-right: 3px;
+    font-size: 20px;
 }
+
 
 #service-chat {
     position: fixed;
@@ -710,6 +722,16 @@ footer {
     padding: 2%;
     margin: 15px 0;
     border-radius: 8px;
+}
+
+.tab-nav h2{
+    font-size: x-large;
+    font-weight: 700;
+}
+ 
+
+.tab-nav a:hover {
+    color: blue;
 }
 
 #introduction-more {
@@ -805,7 +827,7 @@ footer {
 
 .offcanvas-body .btn {
     color: #2953d6;
-    font-size: 100%;
+    font-size: 10%;
     border: none;
 }
 
@@ -968,7 +990,7 @@ strong {
 .card-head {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 12px;
 }
 
 .card-avatar {
@@ -998,8 +1020,11 @@ strong {
     margin-left: 15px;
 }
 
+.card-info h5{
+    width: 100%;
+}
 .guest-comment .card {
-    width: 17rem;
+    width: 16rem;
 }
 
 
@@ -1198,12 +1223,75 @@ strong {
 
 /* reponsive max 990 nhé */
 @media (max-width: 990px) {
+    .ul-search, .hotel-searchBox{
+        display: none;
+    }
+    
+    .card{
+        width: 100%;
+    }
+    .review-rank{
+        width: 90%;
+    }
+    .review-category .container {
+        display: none;
+    }
+
+    .tab-nav .col-2 h2{
+        font-size: medium;
+    }
+
+    .tab-nav .col-2{
+        margin: 0 10px;
+    }
+
+    .policy-inner .col-6 {
+        width: 90%;
+    }
+
+
 
     .select-hotel .container .row:first-child #import1,
     #import2,
     #import3 {
         text-align: left !important;
     }
+
+    .right-sumary .row{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .right-sumary .row .col-4, .right-sumary .row .col-3, .right-sumary .row .col-5 {
+        width: 90%;
+    }
+
+    .right-sumary .row .col-3{
+        width: 70%;
+    }
+    .right-sumary .row .deleted-price{
+        text-align:center;
+    }
+    .right-sumary .row .real-price{
+        font-size: medium;
+    }
+
+    .select-rooms .btn{
+        /* padding-top: 200px ; */
+        font-size: 80%;
+        width: 80%;
+    }
+
+
+    .footer__main{
+        display: grid;
+        grid-template: 3fr 3fr/ 3fr 3fr;
+        text-align: center;
+        
+      }
+    
+      .footer__main .footer__item{
+        width: 90%;
+      }
 }
 
 .service-room .item {

@@ -12,6 +12,11 @@
   a {
       text-decoration: none;
   }
+
+  .footer__main {
+    padding: 64px 20px 0px;
+    margin: 0 10%;
+}
   ul {
       list-style: none;
   }
@@ -347,4 +352,55 @@
     padding-top: 32px;
     padding-bottom: 35px;
 
+}
+
+
+@media (max-width: 990px) {
+   
+  .is-travel-working,
+  .star-rating,
+  .navbar, .body_left {
+      display: none;
+  }
+
+  .navigation{
+    width: 100%;
+  }
+ .nav-pills{
+  display: grid !important;
+  grid-template: 1fr 1fr / 1fr 1fr ;
+  width: 100%;
+  margin-left: 30%;
+ }
+
+ .index_content .title{
+    /* font-size: 14px; */
+    width: 300px;
+    
+ }
+ 
+
+  .title_filter h3{
+      display: none;
+  }
+
+  .title_filter .btn-group{
+      width: 100%;
+      margin: 10px 0;
+  }
+
+  .ul-search, .hotel-searchBox{
+      display: none;
+  }
+
+  .footer__main{
+      display: grid;
+      grid-template: 3fr 3fr/ 3fr 3fr;
+      text-align: center;
+      
+    }
+  
+    .footer__main .footer__item{
+      width: 90%;
+    }
 }

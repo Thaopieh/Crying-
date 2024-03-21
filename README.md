@@ -21,7 +21,6 @@
         <li><a href="#ngôn-ngữ-công-nghệ-ứng-dụng">Ngôn ngữ, công nghệ ứng dụng</a></li>
       </ul>
     </li>
-    
   </ol>
 </details>
 
@@ -43,7 +42,7 @@ Ngành du lịch và khách sạn đang phát triển mạnh mẽ. Mọi ngườ
 Bên cạnh đó, xây dựng một trang web đặt phòng khách sạn sẽ giúp phát triển kỹ năng lập trình, thiết kế giao diện, và quản lý cơ sở dữ liệu... Đồ án này đòi hỏi phải tư duy logic, xây dựng hệ thống, và tương tác với cơ sở dữ liệu. Điều này sẽ giúp rèn luyện khả năng giải quyết vấn đề và phát triển sự sáng tạo...
 
 ## Các chức năng cơ bản
-<img src="../img/tongQuan.jpg">
+![TongQuan](../Crying-/img/tongQuan.jpg)
 <p align="center">Hình. Thiết kế tổng quan của hệ thống</p>
 
 ### Admin
